@@ -326,7 +326,7 @@ Fraction Fraction :: operator--(int num){
 
 // cin && cout
 std::ostream &operator<<(std::ostream &stream, const Fraction &fraction){
-    // givven a fraction (a,b) returns a/b
+    // given a fraction (a,b) returns a/b
     stream << fraction.numerator << "/" << fraction.denominator;
     return stream;
 }
